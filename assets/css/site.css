@@ -1,0 +1,52 @@
+/*
+    site.css — sSoftware landing page
+    Author: vitimc2
+
+    Palette:
+      verde   #35F534 (57 245 52)
+      branco  #FFFFFF (255 255 255)
+      vermelho #F51E1E (245 30 30)
+      cinza claro  #424242 (66 66 66)
+      cinza escuro #1E1E1E (30 30 30)
+*/
+
+:root {
+    --verde: #35F534;
+    --branco: #FFFFFF;
+    --vermelho: #F51E1E;
+    --cinza-claro: #424242;
+    --cinza-escuro: #1E1E1E;
+}
+
+html {
+    background-color: var(--cinza-claro);
+    font-family: "Courier New", "Courier", "Lucida Console";
+    color: var(--branco);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
